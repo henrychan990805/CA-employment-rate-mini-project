@@ -1,4 +1,4 @@
-d3.json('./data').then(function(response){
+d3.json('postgresql://postgres:postgres@localhost:5432/database').then(function(response){
 	x=response.map(row=>row[0]);
 	y=response.map(row=>row[1]);
 	trace={
