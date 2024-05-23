@@ -19,6 +19,19 @@
             font-size: 2em;
             margin-bottom: 20px;
         }
+        /* Dropdown */
+        .dropdown-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+        select {
+            padding: 5px;
+            font-size: 1em;
+            width: 200px; /* Adjust width to make it narrower */
+            border: 1px solid #ccc;
+            border-radius: 4px; /* To make it rectangular, adjust the border-radius */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
         /* Dark Mode Styles */
         body.dark-mode {
             background-color: #1a1a1a;
@@ -41,6 +54,17 @@
         <h1>California Employment Trends</h1>
         <p>Explore the employment data across different regions in California</p>
     </div>
+
+    <!--Select Dropdown Option-->
+    <div class="card">
+        <div class="dropdown-container">
+            <label for="industry-select">Industry Title/Type of Employment:</label>
+            <select id="industry-select">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+    </div>
+
 
     <!--Dark Mode Option-->
     <div class="dark-mode-toggle">
