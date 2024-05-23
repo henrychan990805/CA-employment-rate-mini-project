@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Plot</title>
+    <!-- Include viewport meta element for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Bokeh JavaScript library -->
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh.min.js"></script>
+    <!-- Include Bokeh CSS styles -->
+    <link href="https://cdn.bokeh.org/bokeh/release/bokeh.min.css" rel="stylesheet" type="text/css">
+    <!-- Include Bokeh JavaScript library (minimized) -->
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets.min.js"></script>
+    <!-- Include Bokeh JavaScript library (minimized) -->
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables.min.js"></script>
+    <!-- Include Bokeh JavaScript library (minimized) -->
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-gl.min.js"></script>
+    <!-- Include Bokeh JavaScript library (minimized) -->
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-api.min.js"></script>
+    <link href="https://cdn.bokeh.org/bokeh/release/bokeh.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <!-- Include Bokeh plot div -->
+    {{ plot_html | safe }}
+
+</body>
+</html>
