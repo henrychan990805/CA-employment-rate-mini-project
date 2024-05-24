@@ -31,37 +31,24 @@ def home():
 @app.route('/data')
 def get_data(): 
     results = session.query(employment_data_table).all()
-    
     session.close()
     results=[tuple(row[1:]) for row in results]
     caldata=[each_item for each_item in results if each_item[1]=='California']
     return caldata
 
-@app.route('/map')
-def get_map():
-    # mapplot=session.query(map).all()
-    # session.close()
-    # mapresult=[tuple(row[1:]) for row in mapplot]
-    # return mapresult
-    map_df=pd.read_csv('data/map.csv')
-    map_plot = map_df.hvplot.points(
-        "Longitude",
-        "Latitude",
-        geo=True,
-        tiles="OSM",
-        frame_width=1000,
-        frame_height=1000,
-        size="Regional Unemployment",
-        scale=0.03,
-        color="Area Name",
-        hover_cols=['Area Name', 'Regional Unemployment'],
-        title="Average unemployment by area"
-    )
+@app.route('/job')
+def get_pie():
+    results = session.query(employment_data_table).all()
+    session.close()
+    results=[tuple(row[1:]) for row in results]
+    caldata=[each_item for each_item in results if each_item[1]=='California']
+    yeardata=[each_item for each_item in caldata if each_item[2]==2020]
+    inddata=[each_item for each_item in caldata if each_item[5]=='Chemical & Allied Products Merchant whol']
 
-    plot_html = hvplot.render(map_plot, backend='bokeh')
+    return inddata
 
-    return render_template('map_template.html', plot_html=plot_html)
 
+    
 
 
     
