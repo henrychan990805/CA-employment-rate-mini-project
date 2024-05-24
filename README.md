@@ -1,1 +1,0 @@
-# simple_viz_app
