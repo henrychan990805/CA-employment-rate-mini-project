@@ -4,7 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>California Employment Trends</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+        .title-page {
+            text-align: center;
+            margin-top: 5vh; 
+        }
+        .title-page h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        /* Dropdown */
+        .dropdown-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+        select {
+            padding: 5px;
+            font-size: 1em;
+            width: 200px; /* Adjust width to make it narrower */
+            border: 1px solid #ccc;
+            border-radius: 4px; /* To make it rectangular, adjust the border-radius */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .dark-mode-toggle {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .dark-mode-toggle input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="title-page">
@@ -12,30 +55,12 @@
         <p>Explore the employment data across different regions in California</p>
     </div>
 
+    <!--Select Dropdown Option-->
     <div class="card">
         <div class="dropdown-container">
             <label for="industry-select">Industry Title/Type of Employment:</label>
             <select id="industry-select">
                 <!-- Options will be populated by JavaScript -->
-                <!--Test if it works-->
-                <option value="1">Retail</option>
-                <option value="2">Healthcare</option>
-            </select>
-        </div>
-        <div class="dropdown-container">
-            <label for="from-year-select">From Year:</label>
-            <select id="from-year-select">
-                <!-- Options for months will be populated by JavaScript -->
-                <!--Test if it works<-->
-                <option value="1">2014</option>
-                <option value="2">2015</option>
-            </select>
-            <label for="to-year-select">To Year:</label>
-            <select id="to-year-select">
-                <!-- Options for years will be populated by JavaScript -->
-                <!--Test if it works-->
-                <option value="1">2014</option>
-                <option value="2">2015</option>
             </select>
         </div>
     </div>
