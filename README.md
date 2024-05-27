@@ -104,8 +104,8 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 
 The CSV files used to create the database are included in the repository. You can find them in the following locations:
 
-- data/CA_data.csv: Contains the California employment data.
-- data/CA_Counties.csv: Contains the California counties employment data.
+- data/CA_data.csv: Contains the California employment and unemployment data.
+- data/CA_Counties.csv: Contains the California counties unemployment rate data.
 
 ## Troubleshooting
 
