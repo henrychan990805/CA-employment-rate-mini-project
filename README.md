@@ -14,28 +14,35 @@ The primary purpose of this project is to provide users with a tool to understan
 
 ### How to Use the Application
 
-1. ***View Employment vs. Unemployment Rates:***
+1. ***Toggle Dark Mode:***
+
+   -Use the dark mode toggle at the top to switch between light and dark themes.
+
+   ![Screenshot 2024-05-27 061946](https://github.com/henrychan990805/Project_3/assets/151655013/c75f341f-a051-4008-b531-7dc1761caa01)
+
+
+2. ***View Employment vs. Unemployment Rates:***
    - Use the date selectors to choose a start and end date.
    - Click "Update Chart" to filter the data and view the employment vs. unemployment rates for the selected period.
   
     ![Screenshot 2024-05-27 062159](https://github.com/henrychan990805/Project_3/assets/151655013/867d9fc9-3bf5-46e2-af55-e7bf0ac608a1)
 
   
-2. ***Analyze Unemployment Rates by Area:***
+3. ***Analyze Unemployment Rates by Area:***
    - Use the dropdown menu labeled "Area Name" to select a specific area.
    - The bar chart will display the unemployment rates for the selected area over the available months and years.
   
     ![Screenshot 2024-05-27 062422](https://github.com/henrychan990805/Project_3/assets/151655013/15592ad3-31f8-4844-a615-247a901d64c7)
 
 
-3. ***Explore Industry Employment Growth:***
+4. ***Explore Industry Employment Growth:***
    - Use the dropdown menu labeled "Industry Title/Type of Employment" to select an industry.
    - The line chart will display the employment growth rate for the selected industry over the years.
   
    ![Screenshot 2024-05-27 063638](https://github.com/henrychan990805/Project_3/assets/151655013/76adea14-380d-4b60-ad2f-713ed1d8017d)
 
 
-4. ***View JSON Data:***
+5. ***View JSON Data:***
    - Links at the bottom of the page provide access to the raw JSON data used in the application.
   
     ![Screenshot 2024-05-27 063414](https://github.com/henrychan990805/Project_3/assets/151655013/64af7038-d0c2-4c3a-962e-a05d586ec86d)
@@ -97,4 +104,17 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 By following these instructions, you should be able to run the application locally and explore the employment data for different industries and regions in California.
 
 ## Ethical Considerations
-In developing this project, significant efforts were made to ensure ethical considerations were addressed. Firstly, the data used in this project was sourced from publicly available datasets, ensuring that no proprietary or confidential information was utilized. This helps protect the privacy of individuals and organizations. Additionally, the data was processed and presented in an aggregated form, preventing any potential identification of personal information. We also ensured the accuracy and integrity of the data by cross-verifying with reliable sources. Furthermore, the visualizations and analyses were designed to be unbiased, presenting the data in an objective manner without any misleading interpretations. By following these practices, we aim to uphold the highest standards of ethical responsibility in data handling and presentation.
+We ensured data privacy and integrity by using publicly available datasets from trusted sources. All data manipulations were performed ethically, respecting the original data context and avoiding any misrepresentation.
+
+## References
+- Data Sources:
+  - [Current Employment Statistics (CES)](https://data.ca.gov/dataset/current-employment-statistics-ces-2)
+  - [Local Area Unemployment Statistics (LAUS)](https://data.ca.gov/dataset/local-area-unemployment-statistics-laus/resource/b4bc4656-7866-420f-8d87-4eda4c9996ed)
+
+- Code References:
+  - [Chart.js Documentation](https://www.chartjs.org/docs/latest/) — Used for understanding and implementing charts.
+  - [D3.js Documentation](https://d3js.org/) — Used for understanding and implementing data manipulation techniques, such as d3.json for fetching data.
+  - [Stack Overflow](https://stackoverflow.com/) — Utilized for troubleshooting and finding solutions to coding issues.
+  - [Google](https://www.google.com/) — Used as a search tool to find relevant references.
+  - [ChatGPT](https://www.openai.com/chatgpt) — Used for code assistance and guidance.
+  - [BCS](https://bootcampspot.instructure.com/) — watching our cloud recordings, using instructor activity solutions, class activities, and past challenges as references.
