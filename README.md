@@ -95,3 +95,6 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 - Check for any error messages in the terminal where the Flask application is running and address any issues as needed.
 
 By following these instructions, you should be able to run the application locally and explore the employment data for different industries and regions in California.
+
+### Ethical Considerations
+In developing this project, significant efforts were made to ensure ethical considerations were addressed. Firstly, the data used in this project was sourced from publicly available datasets, ensuring that no proprietary or confidential information was utilized. This helps protect the privacy of individuals and organizations. Additionally, the data was processed and presented in an aggregated form, preventing any potential identification of personal information. We also ensured the accuracy and integrity of the data by cross-verifying with reliable sources. Furthermore, the visualizations and analyses were designed to be unbiased, presenting the data in an objective manner without any misleading interpretations. By following these practices, we aim to uphold the highest standards of ethical responsibility in data handling and presentation.
