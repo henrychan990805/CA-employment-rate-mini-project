@@ -31,13 +31,13 @@ The primary purpose of this project is to provide users with a tool to understan
    - Use the dropdown menu labeled "Industry Title/Type of Employment" to select an industry.
    - The line chart will display the employment growth rate for the selected industry over the years.
   
-     ![Screenshot 2024-05-27 062611](https://github.com/henrychan990805/Project_3/assets/151655013/75810b59-b5e2-4317-a54c-f5a10c72c681)
+   ![Screenshot 2024-05-27 063638](https://github.com/henrychan990805/Project_3/assets/151655013/76adea14-380d-4b60-ad2f-713ed1d8017d)
 
-  
+
 4. **View JSON Data:**
    - Links at the bottom of the page provide access to the raw JSON data used in the application.
   
-    ![Screenshot 2024-05-27 063039](https://github.com/henrychan990805/Project_3/assets/151655013/1a68769d-d97b-462d-b509-f2f30f4a693b)
+    ![Screenshot 2024-05-27 063414](https://github.com/henrychan990805/Project_3/assets/151655013/64af7038-d0c2-4c3a-962e-a05d586ec86d)
 
 
 ### How to Run the Application Locally
