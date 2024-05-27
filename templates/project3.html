@@ -17,11 +17,20 @@
     <div class="title-page">
         <h1>California Employment Trends</h1>
         <p>Explore the employment data for different industries in California</p>
-        <label class="switch">
-            <input type="checkbox" id="darkModeToggle"> 
-            <span class="slider round"></span>
-        </label>
-        <span class="dark-mode-label">Dark Mode</span>
+        <div class="controls-container">
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle"> 
+                <span class="slider round"></span>
+            </label>
+            <span class="dark-mode-label">Dark Mode</span>
+
+            <!-- Zoom Controls -->
+            <div class="zoom-controls">
+                <button id="zoomIn">Zoom In</button>
+                <button id="zoomOut">Zoom Out</button>
+                <button id="resetZoom">Reset Zoom</button>
+            </div>
+        </div>
     </div>
 
     <!-- Chart for Unemployment Rate -->
@@ -89,5 +98,8 @@
 
     <!-- Load custom JavaScript for charts -->
     <script src="{{ url_for('static', filename='js/chart.js') }}"></script>
+
+    <!-- Load custom JavaScript for zoom feature -->
+    <script src="{{ url_for('static', filename='js/zoom.js') }}"></script>
 </body>
 </html>
