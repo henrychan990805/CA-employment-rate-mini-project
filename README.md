@@ -104,7 +104,7 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 By following these instructions, you should be able to run the application locally and explore the employment data for different industries and regions in California.
 
 ## Ethical Considerations
-We ensured data privacy and integrity by using publicly available datasets from trusted sources. All data manipulations were performed ethically, respecting the original data context and avoiding any misrepresentation.
+In developing this project, we prioritized ethical considerations to ensure responsible data use. We utilized publicly available datasets from trusted sources, ensuring data integrity and transparency. No personally identifiable information (PII) was collected or stored. Our visualizations were designed to present data clearly and accurately, avoiding any misleading representations. We documented our methodologies thoroughly to allow for reproducibility and verification. These efforts reflect our commitment to ethical standards in data and technology use.
 
 ## References
 - Data Sources:
@@ -118,3 +118,5 @@ We ensured data privacy and integrity by using publicly available datasets from 
   - [Google](https://www.google.com/) — Used as a search tool to find relevant references.
   - [ChatGPT](https://www.openai.com/chatgpt) — Used for code assistance and guidance.
   - [BCS](https://bootcampspot.instructure.com/) — watching our cloud recordings, using instructor activity solutions, class activities, and past challenges as references.
+
+> #### Contributors: Brent Beachtel, Alyssa Chand, Henry Chen, Darley Chen, and Karuna Kesavan Kothandath
