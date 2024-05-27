@@ -80,7 +80,7 @@ Before you start, make sure you have the following installed on your local machi
 
    - Open a web browser and navigate to http://localhost:5000 to access the application.
   
-### Additional Information
+## Additional Information
 
 **JavaScript, CSS, and HTML Files:**
 The JavaScript, CSS, and HTML files are already included in the repository. You can find them in the following locations:
@@ -88,7 +88,7 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
    - static/css/: Contains the CSS files.
    - The HTML template (project3.html) is located in the templates/ directory.
 
-### Troubleshooting
+## Troubleshooting
 
 - If you encounter issues with database connections, double-check your app.py file to ensure the database URI is correctly formatted.
 - Ensure that all dependencies are correctly installed.
@@ -96,5 +96,5 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 
 By following these instructions, you should be able to run the application locally and explore the employment data for different industries and regions in California.
 
-### Ethical Considerations
+## Ethical Considerations
 In developing this project, significant efforts were made to ensure ethical considerations were addressed. Firstly, the data used in this project was sourced from publicly available datasets, ensuring that no proprietary or confidential information was utilized. This helps protect the privacy of individuals and organizations. Additionally, the data was processed and presented in an aggregated form, preventing any potential identification of personal information. We also ensured the accuracy and integrity of the data by cross-verifying with reliable sources. Furthermore, the visualizations and analyses were designed to be unbiased, presenting the data in an objective manner without any misleading interpretations. By following these practices, we aim to uphold the highest standards of ethical responsibility in data handling and presentation.
