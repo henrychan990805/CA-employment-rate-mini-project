@@ -55,7 +55,7 @@ Before you start, make sure you have the following installed on your local machi
 1. ***Clone the Repository:***
    Open your terminal and clone the repository using the following command:
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/henrychan990805/Project_3.git
 
 2. ***Navigate to the project directory***
 3. ***Install Dependencies***
