@@ -13,8 +13,8 @@ metadata = MetaData()
 metadata.reflect(bind=engine)
 
 # Save references to each table
-CA_data_table = metadata.tables['CA']
-employment_data_table = metadata.tables['CA_Counties']
+CA_data_table = metadata.tables['CA'] 
+CA_Counties_data_table = metadata.tables['CA_Counties']
 
 # Create our session (link) from Python to the DB
 session = Session(engine)
@@ -46,7 +46,7 @@ def project3():
 
 @app.route('/dropdown_data')
 def get_dropdown_data():
-    results = session.query(employment_data_table).all()
+    results = session.query(CA_Counties_data_table).all()
     session.close()
 
     areas = set()
@@ -85,18 +85,18 @@ def get_county_data():
     year = request.args.get('year', type=int)
     area = request.args.get('area', type=str)
 
-    # Query the filtered rows from the employment_data_table
-    query = session.query(employment_data_table)
+    # Query the filtered rows from the CA_Counties_data_table
+    query = session.query(CA_Counties_data_table)
     if year:
-        query = query.filter(employment_data_table.c.Year == year)
+        query = query.filter(CA_Counties_data_table.c.Year == year)
     if area:
-        query = query.filter(employment_data_table.c.Area_Name == area)
+        query = query.filter(CA_Counties_data_table.c.Area_Name == area)
 
     results = query.all()
     session.close()
 
     # Extract column names from the table
-    column_names = employment_data_table.columns.keys()
+    column_names = CA_Counties_data_table.columns.keys()
 
     # Prepare data for California
     county_data = []
@@ -121,11 +121,11 @@ def ca_data():
 # Route to serve CA Counties JSON data 
 @app.route('/ca_counties_data')
 def ca_counties_data():
-    results = session.query(employment_data_table).all()
+    results = session.query(CA_Counties_data_table).all()
     session.close()
 
     # Convert results to a list of dictionaries
-    ca_counties_data = [{column: getattr(row, column) for column in employment_data_table.columns.keys()} for row in results]
+    ca_counties_data = [{column: getattr(row, column) for column in CA_Counties_data_table.columns.keys()} for row in results]
     
     return jsonify(ca_counties_data)
 
