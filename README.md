@@ -73,7 +73,7 @@ Before you start, make sure you have the following installed on your local machi
 
    - Ensure PostgreSQL is running on your local machine.
    - Create a new database.
-   - Update the database credentials in the app.py file if necessary.
+   - Update the database credentials in the appp.py file if necessary.
   
 5. ***Reflect the Database Schema and Import Data:***
 
@@ -96,7 +96,7 @@ Before you start, make sure you have the following installed on your local machi
 
 The JavaScript, CSS, and HTML files are already included in the repository. You can find them in the following locations:
 
-- static/js/: Contains chart.js, the JavaScript file used in the application.
+- static/js/: Contains chart.js and zoom.js, the JavaScript files used in the application.
 - static/css/: Contains styles.css, the CSS file used in the application.
 - The HTML template (project3.html) is located in the templates/ directory.
 
