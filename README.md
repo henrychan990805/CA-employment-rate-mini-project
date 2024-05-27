@@ -5,7 +5,7 @@
 
 
 ## Overview
-This project provides an interactive web application to explore employment data for different industries and counties in California. The application is built using Flask, SQLAlchemy, and various JavaScript libraries including Chart.js and D3.js to visualize the data. Users can view and analyze trends in employment and unemployment rates over time.
+This project provides an interactive web application to explore employment data for different industries and counties in California. The application is built using Flask, SQLAlchemy, and JavaScript libraries including Chart.js and D3.js to visualize the data. Users can view and analyze trends in employment and unemployment rates over time.
 
 ## Purpose
 The primary purpose of this project is to provide users with a tool to understand employment trends in California, allowing them to make informed decisions based on historical data.
@@ -101,7 +101,7 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 - Ensure that all dependencies are correctly installed.
 - Check for any error messages in the terminal where the Flask application is running and address any issues as needed.
 
-By following these instructions, you should be able to run the application locally and explore the employment data for different industries and regions in California.
+By following these instructions, you should be able to run the application locally and explore the employment data for different industries and counties in California.
 
 ## Ethical Considerations
 In developing this project, we prioritized ethical considerations to ensure responsible data use. We utilized publicly available datasets from trusted sources, ensuring data integrity and transparency. No personally identifiable information (PII) was collected or stored. Our visualizations were designed to present data clearly and accurately, avoiding any misleading representations. We documented our methodologies thoroughly to allow for reproducibility and verification. These efforts reflect our commitment to ethical standards in data and technology use.
