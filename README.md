@@ -84,7 +84,7 @@ Before you start, make sure you have the following installed on your local machi
    - Start the Flask application using the following command:
      
      ```sh
-     python app.py
+     python appp.py
 
 7. ***Access the Application:***
 
@@ -102,7 +102,7 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 
 ## Troubleshooting
 
-- If you encounter issues with database connections, double-check your app.py file to ensure the database URI is correctly formatted.
+- If you encounter issues with database connections, double-check your appp.py file to ensure the database URI is correctly formatted.
 - Ensure that all dependencies are correctly installed.
 - Check for any error messages in the terminal where the Flask application is running and address any issues as needed.
 
