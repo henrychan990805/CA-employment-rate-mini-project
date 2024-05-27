@@ -65,9 +65,9 @@ Before you start, make sure you have the following installed on your local machi
    - Create a new database.
    - Update the database credentials in the app.py file if necessary.
   
-5. ***Reflect the Database Schema:***
+5. ***Reflect the Database Schema and Import Data:***
 
-   - Make sure the database tables are set up correctly.
+   - Make sure the database tables are set up correctly and the csv files are imported in the right table.
   
 6. ***Run the Application:***
 
@@ -79,3 +79,19 @@ Before you start, make sure you have the following installed on your local machi
 7. ***Access the Application:***
 
    - Open a web browser and navigate to http://localhost:5000 to access the application.
+  
+### Additional Information
+
+**JavaScript, CSS, and HTML Files:**
+The JavaScript, CSS, and HTML files are already included in the repository. You can find them in the following locations:
+   - static/js/: Contains the JavaScript files.
+   - static/css/: Contains the CSS files.
+   - The HTML template (project3.html) is located in the templates/ directory.
+
+### Troubleshooting
+
+- If you encounter issues with database connections, double-check your app.py file to ensure the database URI is correctly formatted.
+- Ensure that all dependencies are correctly installed.
+- Check for any error messages in the terminal where the Flask application is running and address any issues as needed.
+
+By following these instructions, you should be able to run the application locally and explore the employment data for different industries and regions in California.
