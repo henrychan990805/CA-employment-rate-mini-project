@@ -100,6 +100,13 @@ The JavaScript, CSS, and HTML files are already included in the repository. You 
 - static/css/: Contains styles.css, the CSS file used in the application.
 - The HTML template (project3.html) is located in the templates/ directory.
 
+**CSV Files:**
+
+The CSV files used to create the database are included in the repository. You can find them in the following locations:
+
+- data/CA_data.csv: Contains the California employment data.
+- data/CA_Counties.csv: Contains the California counties employment data.
+
 ## Troubleshooting
 
 - If you encounter issues with database connections, double-check your appp.py file to ensure the database URI is correctly formatted.
