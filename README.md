@@ -5,7 +5,7 @@
 
 
 ## Overview
-This project provides an interactive web application to explore employment data for different industries and regions in California. The application is built using Flask, SQLAlchemy, and various JavaScript libraries including Chart.js and D3.js to visualize the data. Users can view and analyze trends in employment and unemployment rates over time.
+This project provides an interactive web application to explore employment data for different industries and counties in California. The application is built using Flask, SQLAlchemy, and various JavaScript libraries including Chart.js and D3.js to visualize the data. Users can view and analyze trends in employment and unemployment rates over time.
 
 ## Purpose
 The primary purpose of this project is to provide users with a tool to understand employment trends in California, allowing them to make informed decisions based on historical data.
