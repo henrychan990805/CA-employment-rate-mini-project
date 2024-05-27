@@ -127,6 +127,7 @@ In developing this project, we prioritized ethical considerations to ensure resp
   - [pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/) — Used for cleaning the data and saving it to a CSV file.
   - [Chart.js Documentation](https://www.chartjs.org/docs/latest/) — Used for understanding and implementing charts.
   - [D3.js Documentation](https://d3js.org/) — Used for understanding and implementing data manipulation techniques, such as d3.json for fetching data.
+  - [MDN Web Docs](https://developer.mozilla.org/) — Used for understanding various HTML elements, JavaScript methods and CSS properties implemented in the project.
   - [Stack Overflow](https://stackoverflow.com/) — Utilized for troubleshooting and finding solutions to coding issues.
   - [Google](https://www.google.com/) — Used as a search tool to find relevant references.
   - [ChatGPT](https://www.openai.com/chatgpt) — Used for code assistance and guidance.
