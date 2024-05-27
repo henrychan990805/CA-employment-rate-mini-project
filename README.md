@@ -41,3 +41,40 @@ The primary purpose of this project is to provide users with a tool to understan
 
 
 ### How to Run the Application Locally
+
+### Prerequisites
+Before you start, make sure you have the following installed on your local machine:
+- [Python](https://www.python.org/downloads/): The programming language required to run the application.
+- [pip](https://pip.pypa.io/en/stable/installation/): The Python package installer, used to install and manage Python packages. It's usually included with Python installations.
+- [PostgreSQL](https://www.postgresql.org/download/): The database management system used by the application.
+
+
+### Instructions
+
+1. **Clone the Repository:**
+   Open your terminal and clone the repository using the following command:
+   ```sh
+   git clone https://github.com/yourusername/your-repo-name.git
+
+2. **Navigate to the project directory**
+3. **Install Dependencies**
+4. **Set Up the PostgreSQL Database:**
+
+   - Ensure PostgreSQL is running on your local machine.
+   - Create a new database.
+   - Update the database credentials in the app.py file if necessary.
+  
+5. **Reflect the Database Schema:**
+
+   - Make sure the database tables are set up correctly.
+  
+6. **Run the Application:**
+
+   - Start the Flask application using the following command:
+     
+     ```sh
+     python app.py
+
+7. **Access the Application:**
+
+   - Open a web browser and navigate to http://localhost:5000 to access the application.
