@@ -10,6 +10,9 @@ This project provides an interactive web application to explore employment data 
 ## Purpose
 The primary purpose of this project is to provide users with a tool to understand employment trends in California, allowing them to make informed decisions based on historical data.
 
+## Data Cleaning
+We used pandas, a powerful data manipulation library in Python, to clean and preprocess the raw data. The cleaned data was then saved into CSV files for easier handling and visualization.
+
 ## Instructions
 
 ### How to Use the Application
@@ -112,6 +115,7 @@ In developing this project, we prioritized ethical considerations to ensure resp
   - [Local Area Unemployment Statistics (LAUS)](https://data.ca.gov/dataset/local-area-unemployment-statistics-laus/resource/b4bc4656-7866-420f-8d87-4eda4c9996ed)
 
 - Code References:
+  - [pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/) — Used for cleaning the data and saving it to a CSV file.
   - [Chart.js Documentation](https://www.chartjs.org/docs/latest/) — Used for understanding and implementing charts.
   - [D3.js Documentation](https://d3js.org/) — Used for understanding and implementing data manipulation techniques, such as d3.json for fetching data.
   - [Stack Overflow](https://stackoverflow.com/) — Utilized for troubleshooting and finding solutions to coding issues.
