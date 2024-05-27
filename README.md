@@ -1,8 +1,7 @@
 # Project 3: Data Visualization Track
 ## California Employment Trends
 
-![Screenshot 2024-05-27 062812](https://github.com/henrychan990805/Project_3/assets/151655013/b4f1e733-e58e-42cb-b8d2-1cfc94279e47)
-
+![Screenshot 2024-05-27 155733](https://github.com/henrychan990805/Project_3/assets/151655013/cccf5bd1-af36-4251-81aa-e660acdc7067)
 
 ## Overview
 This project provides an interactive web application to explore employment data for different industries and counties in California. The application is built using Flask, SQLAlchemy, and JavaScript libraries including Chart.js and D3.js to visualize the data. Users can view and analyze trends in employment and unemployment rates over time.
@@ -17,35 +16,36 @@ We used pandas, a powerful data manipulation library in Python, to clean and pre
 
 ### How to Use the Application
 
-1. ***Toggle Dark Mode:***
+1. ***Toggle Dark Mode and Zoom Feature:***
 
-   -Use the dark mode toggle at the top to switch between light and dark themes.
+   - Use the dark mode toggle at the top to switch between light and dark themes.
+   - Use the zoom feature to adjust the view for better readability.
 
-   ![Screenshot 2024-05-27 061946](https://github.com/henrychan990805/Project_3/assets/151655013/c75f341f-a051-4008-b531-7dc1761caa01)
+   ![Screenshot 2024-05-27 155620](https://github.com/henrychan990805/Project_3/assets/151655013/80806e42-b140-4f1d-b83d-60cfe023eefc)
 
 
-2. ***View Employment vs. Unemployment Rates:***
+3. ***View Employment vs. Unemployment Rates:***
    - Use the date selectors to choose a start and end date.
    - Click "Update Chart" to filter the data and view the employment vs. unemployment rates for the selected period.
   
     ![Screenshot 2024-05-27 062159](https://github.com/henrychan990805/Project_3/assets/151655013/867d9fc9-3bf5-46e2-af55-e7bf0ac608a1)
 
   
-3. ***Analyze Unemployment Rates by Area:***
+4. ***Analyze Unemployment Rates by Area:***
    - Use the dropdown menu labeled "Area Name" to select a specific area.
    - The bar chart will display the unemployment rates for the selected area over the available months and years.
   
     ![Screenshot 2024-05-27 062422](https://github.com/henrychan990805/Project_3/assets/151655013/15592ad3-31f8-4844-a615-247a901d64c7)
 
 
-4. ***Explore Industry Employment Growth:***
+5. ***Explore Industry Employment Growth:***
    - Use the dropdown menu labeled "Industry Title/Type of Employment" to select an industry.
    - The line chart will display the employment growth rate for the selected industry over the years.
   
    ![Screenshot 2024-05-27 063638](https://github.com/henrychan990805/Project_3/assets/151655013/76adea14-380d-4b60-ad2f-713ed1d8017d)
 
 
-5. ***View JSON Data:***
+6. ***View JSON Data:***
    - Links at the bottom of the page provide access to the raw JSON data used in the application.
   
     ![Screenshot 2024-05-27 063414](https://github.com/henrychan990805/Project_3/assets/151655013/64af7038-d0c2-4c3a-962e-a05d586ec86d)
