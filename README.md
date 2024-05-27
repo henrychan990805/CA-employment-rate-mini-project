@@ -119,4 +119,4 @@ In developing this project, we prioritized ethical considerations to ensure resp
   - [ChatGPT](https://www.openai.com/chatgpt) — Used for code assistance and guidance.
   - [BCS](https://bootcampspot.instructure.com/) — watching our cloud recordings, using instructor activity solutions, class activities, and past challenges as references.
 
-> #### Contributors: Brent Beachtel, Alyssa Chand, Henry Chen, Darley Chen, and Karuna Kesavan Kothandath
+> #### Team Members: Brent Beachtel, Alyssa Chand, Henry Chen, Darley Chen, and Karuna Kesavan Kothandath
