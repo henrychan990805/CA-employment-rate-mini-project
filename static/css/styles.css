@@ -64,7 +64,22 @@ select {
     margin-bottom: 50px; 
 }
 
-/* Dark Mode Toggle*/
+/* Dark Mode Toggle and Zoom*/
+.controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.zoom-controls button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
 .switch {
     position: relative;
     display: inline-block;
