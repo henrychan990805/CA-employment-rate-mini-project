@@ -93,10 +93,12 @@ Before you start, make sure you have the following installed on your local machi
 ## Additional Information
 
 **JavaScript, CSS, and HTML Files:**
+
 The JavaScript, CSS, and HTML files are already included in the repository. You can find them in the following locations:
-   - static/js/: Contains the JavaScript files.
-   - static/css/: Contains the CSS files.
-   - The HTML template (project3.html) is located in the templates/ directory.
+
+- static/js/: Contains chart.js, the JavaScript file used in the application.
+- static/css/: Contains styles.css, the CSS file used in the application.
+- The HTML template (project3.html) is located in the templates/ directory.
 
 ## Troubleshooting
 
