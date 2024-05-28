@@ -32,7 +32,7 @@ def project3():
     cur = conn.cursor()
 
     # Query distinct industry titles and years
-    cur.execute('SELECT DISTINCT "Industry_Title" FROM "CA";')
+    cur.execute('SELECT DISTINCT "Industry Title" FROM "CA";')
     industries = [row[0] for row in cur.fetchall()]
 
     cur.execute('SELECT DISTINCT "Year" FROM "CA_Counties";')
@@ -53,7 +53,7 @@ def get_dropdown_data():
     years = set()
 
     for row in results:
-        areas.add(row.Area_Name)
+        areas.add(row[0])
         years.add(row.Year)
 
     return jsonify({
@@ -90,7 +90,7 @@ def get_county_data():
     if year:
         query = query.filter(CA_Counties_data_table.c.Year == year)
     if area:
-        query = query.filter(CA_Counties_data_table.c.Area_Name == area)
+        query = query.filter(CA_Counties_data_table.c["Area Name"] == area)
 
     results = query.all()
     session.close()

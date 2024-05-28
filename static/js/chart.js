@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
         // Fetch the industry data from the specified endpoint
         d3.json('/industry_data').then(function(response) {
             // Filter data to include only the records for the selected industry
-            const filteredData = response.filter(row => row['Industry_Title'] === selectedIndustry);
+            const filteredData = response.filter(row => row['Industry Title'] === selectedIndustry);
 
             // Create an object to hold employment by year
             const employmentData = {};
             filteredData.forEach(function(row) {
                 const currentYear = row['Year'];
-                const currentEmployment = row['Industry_Current_Employment'];
+                const currentEmployment = row['Industry Current Employment'];
                 employmentData[currentYear] = currentEmployment;
             });
 
@@ -126,8 +126,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
             response.forEach(function(row) {
                 const yearMonth = `${row['Year']}-${row['Month']}`;
-                const employment = row['Regional_Employment'];
-                const unemploymentRate = row['Regional_Unemployment_Rate'];
+                const employment = row['Regional Employment'];
+                const unemploymentRate = row['Regional Unemployment Rate'];
 
                 if (!monthlyData[yearMonth]) {
                     monthlyData[yearMonth] = { employment: 0, unemploymentRate: 0, count: 0 };
@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Extract months and years
             const monthsAndYears = sortedData.map(row => `${row.Month} ${row.Year}`);
-            const unemploymentRates = sortedData.map(row => row['Regional_Unemployment_Rate']);
+            const unemploymentRates = sortedData.map(row => row['Regional Unemployment Rate']);
 
             // Update the chart data
             barChart.data.labels = monthsAndYears;
@@ -374,7 +374,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(function(response) {
                 // Extract 'Year' and 'Regional_Unemployment_Rate' from the response
                 const xYear = response.map(row => row['Year']);
-                const yRate = response.map(row => row['Regional_Unemployment_Rate']);
+                const yRate = response.map(row => row['Regional Unemployment Rate']);
 
                 // Group yRate values by xYear values and calculate the average
                 const groupedData = {};
