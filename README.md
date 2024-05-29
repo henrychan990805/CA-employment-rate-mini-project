@@ -72,12 +72,11 @@ Before you start, make sure you have the following installed on your local machi
 4. ***Set Up the PostgreSQL Database:***
 
    - Ensure PostgreSQL is running on your local machine.
-   - Create a new database.
-   - Update the database credentials in the appp.py file if necessary.
+   - Create a new database, "employment_data".
   
-5. ***Reflect the Database Schema and Import Data:***
+5. ***Import Data***
 
-   - Make sure the database tables are set up correctly and the csv files are imported in the right table.
+   - Use command line (with Git Bash/Terminal) to run the command "python data_base_setup.py".
   
 6. ***Run the Application:***
 
@@ -131,6 +130,7 @@ In developing this project, we prioritized ethical considerations to ensure resp
   - [Stack Overflow](https://stackoverflow.com/) — Utilized for troubleshooting and finding solutions to coding issues.
   - [Google](https://www.google.com/) — Used as a search tool to find relevant references.
   - [ChatGPT](https://www.openai.com/chatgpt) — Used for code assistance and guidance.
-  - [BCS](https://bootcampspot.instructure.com/) — watching our cloud recordings, using instructor activity solutions, class activities, and past challenges as references.
+  - [BCS](https://bootcampspot.instructure.com/) — Watching our cloud recordings, using instructor activity solutions, class activities, and past challenges as references.
+  - [QuickDatabaseDiagrams](https://www.quickdatabasediagrams.com/) — Used to create the structures for the databases.
 
 > #### Team Members: Brent Beachtel, Alyssa Chand, Henry Chen, Darley Chen, and Karuna Kesavan Kothandath
